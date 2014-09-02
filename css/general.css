@@ -1,0 +1,23 @@
+h1{
+	border-bottom:1px solid #9d9e9c;
+	color:rgb(177,49,103);
+}
+
+body{
+	background-color:#e0e1df;
+}
+
+main{
+	background-color:#ffffff;
+	margin-top: 1rem;
+	margin-bottom:1rem;
+	margin-right: 4rem;
+	margin-left: 4rem;
+	padding: 2rem;
+	border-radius: 25px;
+	box-shadow: 1px;
+}
+
+img{
+	width:100%;
+}
