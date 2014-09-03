@@ -1,10 +1,17 @@
 h1{
-	border-bottom:1px solid #9d9e9c;
-	color:rgb(177,49,103);
+	color:#b93877;
+	font-family: arial;
+	padding-top: 2rem;
+	margin-left: 8%;
+}
+
+h2{
+	color: #b93877;
 }
 
 body{
 	background-color:#e0e1df;
+	line-height: 25px;
 }
 
 main{
@@ -13,11 +20,90 @@ main{
 	margin-bottom:1rem;
 	margin-right: 4rem;
 	margin-left: 4rem;
-	padding: 2rem;
 	border-radius: 25px;
 	box-shadow: 1px;
+	font-family: arial;
+	font-size: 15px;
 }
 
 img{
 	width:100%;
+}
+
+figcaption{
+	width: 100%;
+	background: #f8f8f8;
+	border-top: 1px solid #e0e1df;
+	border-bottom: 1px solid #e0e1df;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #6a6a6a;
+}
+
+blockquote{
+	background-color: ##d9d9d9;
+	border-top: 1px solid #e0e1df;
+	border-bottom: 1px solid #e0e1df;
+	background: #f8f8f8;
+	padding-bottom: 2rem;
+	font-family: Times New Roman;
+}
+
+cite{
+	float: right;
+	padding-right: 5%;
+	color: #6a6a6a;
+}
+
+.paragraph{
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+aside{
+	background: #f8f8f8;
+	border-top: 1px solid #e0e1df;
+	border-bottom: 1px solid #e0e1df;
+}
+
+dl {
+ width:100%;
+ overflow:hidden;
+}
+dt {
+ float:left;
+ width:20%; /* adjust the width; make sure the total of both is 100% */
+}
+dd {
+ float:left;
+ width:70%; /* adjust the width; make sure the total of both is 100% */
+}
+
+.buttons{
+	background-color: #f0dedb;
+	border: 1px solid #b93877;
+	border-left: 50%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	float: left;
+	padding: 1%;
+	color: #b93877;
+}
+
+ul{
+	list-style-type: none;
+	margin-bottom: 5rem;
+}
+
+.hide-text{
+	visibility: hidden;
+}
+
+footer{
+	padding-bottom: 1rem;
+	color: #6a6a6a;
+}
+
+a{
+	color: #b93877;
 }
