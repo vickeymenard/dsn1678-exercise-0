@@ -24,6 +24,7 @@ main{
 	box-shadow: 1px;
 	font-family: arial;
 	font-size: 15px;
+	box-shadow:2px 2px 10px 1px #a7a7a7;
 }
 
 img{
@@ -92,14 +93,13 @@ dd {
 
 ul{
 	list-style-type: none;
-	margin-bottom: 5rem;
 }
 
 .hide-text{
 	visibility: hidden;
 }
 
-footer{
+.main-footer{
 	padding-bottom: 1rem;
 	color: #6a6a6a;
 }
